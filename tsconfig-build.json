@@ -1,0 +1,34 @@
+{
+   
+  "angularCompilerOptions": {
+    "annotateForClosureCompiler": true,
+    "strictMetadataEmit": true,
+    "skipTemplateCodegen": true,
+    "flatModuleOutFile": "product-cart.js",
+    "flatModuleId": "product-cart"
+  },
+    "compilerOptions": {
+      "baseUrl": "./tmp/src-inlined",
+      "outDir": "./build",
+     
+      "declaration": true,
+      "moduleResolution": "node",
+        "experimentalDecorators": true,
+      "stripInternal" : true,
+      "rootDir":"./tmp/src-inlined",
+      "target": "es5",
+      "module": "es2015",
+      
+      "lib": [
+        "es2017",
+        "dom"
+      ],
+      "types" :[]
+    },
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts",
+        "e2e"
+      ], "files" : ["./tmp/src-inlined/index.ts"]
+  }
+  

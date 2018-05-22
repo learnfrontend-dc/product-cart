@@ -1,0 +1,10 @@
+.fixed-panel {
+    height: 330px;
+   }
+
+
+   .total{
+    right: 0;
+    position: absolute;
+    top: 275px;
+}

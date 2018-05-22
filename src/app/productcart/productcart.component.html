@@ -1,0 +1,41 @@
+
+  <div class="col-sm-4" >
+    <div class="panel panel-primary">
+        <div class="panel-heading">Check Out</div>
+        <div class="panel-body fixed-panel">
+          <div class='table-responsivenes'   style="border:none">
+            <table class='table' border="0" style="    position: relative;">
+              <thead>
+                <tr>
+                  <th>Product</th>
+                  <th>Quantity</th>
+                  <th>Price</th>
+                        
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let product of productlist"> 
+                  <td>{{product.productname}}</td>
+                  <td>{{product.qty}}</td>
+                  <td>{{product.price | currency: 'USD' :true: '1.2-2'}}</td>
+                </tr>
+              </tbody>
+              
+              <tfoot class="total">
+                  <tr>
+                    <th style="border-bottom:0">Total</th>
+                    <th style="border-bottom:0"></th>
+                    <th style="border-bottom:0">{{totalprice | currency: 'USD' :true: '1.2-2'}}</th>
+                          
+                  </tr>
+                </tfoot>
+              
+            </table>
+            
+          </div>
+          
+        </div>
+
+            
+      </div>
+</div>
