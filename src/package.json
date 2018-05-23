@@ -1,7 +1,9 @@
 {
   "name": "pcmf3",
   "author":"learnfrontend dc",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
-  "module" : "product-cart.js"
+   "main": "bundles/pcmf3.umd.js",
+  "module": "index.js",
+  "typings": "index.d.ts"
 }

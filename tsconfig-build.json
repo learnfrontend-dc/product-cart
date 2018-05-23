@@ -1,19 +1,15 @@
 {
    
   "angularCompilerOptions": {
-    "annotateForClosureCompiler": true,
-    "strictMetadataEmit": true,
-    "skipTemplateCodegen": true,
-    "flatModuleOutFile": "product-cart.js",
-    "flatModuleId": "product-cart"
+    "strictMetadataEmit": true
   },
     "compilerOptions": {
       "baseUrl": "./tmp/src-inlined",
-      "outDir": "./build",
-     
+      "outDir": "./dist",
       "declaration": true,
       "moduleResolution": "node",
-        "experimentalDecorators": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata":true,
       "stripInternal" : true,
       "rootDir":"./tmp/src-inlined",
       "target": "es5",

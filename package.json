@@ -13,7 +13,6 @@
     "postinstall": "ng build --prod --output-hashing=none",
     "build:esm": "gulp inline-templates"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^6.0.0",
     "@angular/common": "^6.0.0",
@@ -29,10 +28,7 @@
     "core-js": "^2.5.4",
     "document-register-element": "^1.7.2",
     "grunt": "^1.0.2",
-    "gulp-angular-embed-templates": "^2.3.0",
-    "gulp-inline-ng2-template": "^4.1.0",
-    "gulp-pipe": "^1.0.4",
-    "gulp-util": "^3.0.8",
+    "inline-templates": "0.0.5",
     "ngx-bootstrap": "^1.8.1",
     "rxjs": "^6.0.0",
     "zone.js": "^0.8.26"
