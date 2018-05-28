@@ -1,7 +1,7 @@
 export default {
-    entry: 'dist/index.js',
-    dest: 'dist/bundles/pvmf1.umd.js',
+    entry: 'dist-npm/index.js',
+    dest: 'dist-npm/bundles/mf-pc.umd.js',
     sourceMap: false,
     format: 'umd',
-    moduleName: 'ng.pvmf1'
+    moduleName: 'ng.mf-pc'
   }

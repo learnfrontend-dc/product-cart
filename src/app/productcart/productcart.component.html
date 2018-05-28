@@ -14,10 +14,21 @@
                 </tr>
               </thead>
               <tbody>
+                 
                 <tr *ngFor="let product of productlist"> 
                   <td>{{product.productname}}</td>
-                  <td>{{product.qty}}</td>
-                  <td>{{product.price | currency: 'USD' :true: '1.2-2'}}</td>
+                  <td class="space-caret"> 
+                     
+                      <div class="input-group spinner">
+                          <input type="text" class="form-control" value="{{product.qty}}">
+                          <div class="input-group-btn-vertical">
+                            <button class="btn btn-default" type="button" (click)="increment(product)"><i class="fa fa-caret-up"></i></button>
+                            <button class="btn btn-default" type="button" (click)="decrement(product)"><i class="fa fa-caret-down"></i></button>
+                          </div>
+                 </div>
+
+                  </td>
+                  <td>{{product.cartprice | currency: 'USD' :true: '1.2-2'}}</td>
                 </tr>
               </tbody>
               

@@ -5,7 +5,7 @@
   },
     "compilerOptions": {
       "baseUrl": "./tmp/src-inlined",
-      "outDir": "./dist",
+      "outDir": "./dist-npm",
       "declaration": true,
       "moduleResolution": "node",
       "experimentalDecorators": true,

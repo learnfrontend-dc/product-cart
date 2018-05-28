@@ -1,9 +1,9 @@
 {
-  "name": "pcmf3",
-  "author":"learnfrontend dc",
-  "version": "0.0.3",
+  "name": "mf-pc",
+  "author":"lionel robbin",
+  "version": "0.0.7",
   "license": "MIT",
-   "main": "bundles/pcmf3.umd.js",
+   "main": "bundles/mf-pc.umd.js",
   "module": "index.js",
   "typings": "index.d.ts"
 }

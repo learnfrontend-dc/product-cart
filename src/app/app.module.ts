@@ -3,10 +3,11 @@ import { NgModule, Injector } from '@angular/core';
 import { createCustomElement } from '@angular/elements';
 
 import { ProductCartComponent } from './productcart/productcart.component';
+import { Angular2FontawesomeModule } from 'angular2-fontawesome/angular2-fontawesome'
 
 @NgModule({
   declarations: [ProductCartComponent],
-  imports: [BrowserModule],
+  imports: [BrowserModule, Angular2FontawesomeModule],
   entryComponents: [ProductCartComponent]
 })
 export class ProductCartModule {
