@@ -65,6 +65,8 @@
     "gulp-inline-ng2-template": "^4.1.0",
     "gulp-pipe": "^1.0.4",
     "gulp-util": "^3.0.8",
-    "node-sass": "4.9.0"
+    "node-sass": "4.9.0",
+    "gulp":"3.9.1",
+    "rollup":"0.66.4"
   }
 }
